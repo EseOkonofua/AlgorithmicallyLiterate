@@ -49,7 +49,7 @@ public class EArray<T> {
 		return capacity;
 	}
 	
-	public boolean is_empty(){
+	public boolean isEmpty(){
 		if(count == 0) return true;
 		else return false;
 	}
